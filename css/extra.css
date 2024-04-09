@@ -2,8 +2,6 @@
 .fade {
   animation-name: fade;
   animation-duration: .5s;
-
-  margin: ;
 }
 
 @keyframes fade {
@@ -15,5 +13,33 @@
   }
 }
 
+.hide {
+  display: none;
+} 
 
+
+/* Slider  */
+
+.offer__slider {
+  user-select: none;
+}
+
+.offer__slider-inner {
+  width: 650px;
+  height: 350px;
+
+  position: relative;
+  overflow: hidden;
+
+}
+
+.offer__slide {
+  width: 650px;
+  height: 350px;
+  position: absolute;
+  transition: all ease 500ms;
+
+  top: 0;
+  left: 0;
+}
 
